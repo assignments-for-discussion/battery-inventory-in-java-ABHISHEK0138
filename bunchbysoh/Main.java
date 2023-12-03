@@ -9,7 +9,7 @@ public class Main {
 
   static CountsBySoH countBatteriesByHealth(int[] presentCapacities) {
     CountsBySoH counts = new CountsBySoH();
-       for (int capacities :presentCapacity) {
+       for (int capacities :presentCapacities) {
      double  SoH = 100 *capacities /120;
       if (SoH> 80  && SoH<100) {
         counts.healthy++;
